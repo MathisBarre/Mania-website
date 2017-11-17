@@ -1,0 +1,216 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+/*Général*/
+body {
+  background-color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  margin: 0;
+  color: #444;
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  font-size: 32px;
+}
+
+h2 {
+  font-family: "Merriweather";
+  text-align: center;
+}
+
+
+.center {
+  max-width: 1300px;
+  margin: auto;
+  padding: 5px;
+}
+hr {
+  width: 100px;
+  height: 3px;
+  background-color: #e34120;
+  border: none;
+}
+
+a {
+  color: white;
+  text-decoration: none
+}
+
+/*Header*/
+header .center {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+
+header {
+  background-color: #2c3e50 ;
+  padding: 0px;
+  position: fixed;
+  width: 100%;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  margin: 0px;
+}
+header li:nth-child(1) {
+  margin-left:0px;
+}
+
+header li {
+  margin-left: 15px;
+  font-family: Merriweather;
+  text-transform: uppercase
+}
+
+header h1 {
+  margin: 0px;
+}
+
+/*Banner*/
+
+
+#banner {
+  height: 100vh;
+  background-image: url("img/photo_banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#banner .center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+#banner h1 {
+  color: white;
+  text-shadow: 0px 0px 10px black;
+  font-size: 3.5em;
+  margin: 5px;
+  font-family: "Open Sans";
+}
+.button {
+  color: white;
+  background-color: #3498db;
+  border-radius: 7px;
+}
+#banner p {
+  margin : 0px;
+  padding: 3px 15px 3px 15px;
+}
+.titleHr {
+  border: black solid 0px;
+  background-color: white;
+  box-shadow: 0px 0px 7px;
+  width: 500px;
+}
+
+
+/*whoIAm ? */
+#quiSuisJe {
+  background-color: #f4f4f4;
+}
+
+
+
+#quiSuisJe p {
+  text-align: center;
+}
+
+/*A propos*/
+
+#aPropos .center {
+  display: flex;
+}
+
+
+
+#aPropos article {
+  width: 50%;
+}
+
+#aPropos article:nth-child(2) {
+  text-align: right;
+}
+
+.intro {
+  color: #e34120;
+}
+
+.subTitle {
+  color: #2980b9;
+}
+/*portfolio*/
+
+
+#portfolio {
+  background-color: #2980b9;
+  color: white;
+  text-align: center;
+}
+
+.portfolio, #parentPF a {
+  width: 30%;
+  height: 200px;
+  background-color: white;
+  margin: 10px;
+  background-size: cover;
+}
+
+#portfolio a:nth-child(1) {
+  background-image: url(img/PF1.png);
+}
+
+#portfolio a:nth-child(2) {
+  background-image: url(img/PF2.png);
+}
+
+#portfolio a:nth-child(3) {
+  background-image: url(img/PF3.png);
+}
+
+.portfolio:hover {
+  background-color: #f4f4f4;
+}
+
+#parentPF {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center
+}
+
+/*Contact*/
+#contact img {
+  height: 20px;
+  margin-right: 10px;
+}
+
+#neymar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact {
+  background-color: #2c3e50;
+  color: white;
+}
+
+#contact a {
+  text-decoration: underline;
+}
+
+.portfolio p {
+  color: white;
+}

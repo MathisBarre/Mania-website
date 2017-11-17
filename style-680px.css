@@ -1,0 +1,52 @@
+/*header*/
+
+
+header {
+  position: static;
+}
+header .center {
+  flex-direction: column;
+}
+header ul {
+  display: none;
+}
+
+/*banner*/
+
+
+#banner {
+  height: 200px;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.titleHr {
+  width: 100px;
+}
+
+#banner h1 {
+  font-size: 1.5em;
+}
+
+/*A propos*/
+
+#aPropos .center {
+  flex-direction: column;
+}
+
+#aPropos article,#aPropos article:nth-child(2) {
+  width: 100%;
+  text-align: justify;
+}
+
+.portfolio, #parentPF a {
+  height: 150px;
+}
+
+@media all and (max-width: 611px) {
+  .portfolio, #parentPF a {
+    width: 45%;
+    height: 150px;
+    margin: 5px;
+    background-size: cover;
+  }
